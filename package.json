@@ -1,0 +1,35 @@
+{
+  "name": "telemetry-latency-tradeoffs",
+  "version": "1.0.0",
+  "description": "An architectural deep-dive and code simulation evaluating the performance penalties of distributed tracing and heavy telemetry in real-time streaming pipelines.",
+  "main": "src/pipeline.ts",
+  "scripts": {
+    "demo:latency": "ts-node src/pipeline.ts",
+    "demo:logger": "ts-node src/logger.ts",
+    "build": "tsc",
+    "start": "npm run demo:latency"
+  },
+  "keywords": [
+    "big-data",
+    "observability",
+    "stream-processing",
+    "performance-optimization",
+    "architecture-design",
+    "telemetry",
+    "distributed-systems",
+    "kafka",
+    "latency",
+    "logging",
+    "tracing"
+  ],
+  "author": "Glover0011",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
